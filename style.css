@@ -240,9 +240,7 @@ nav .btns button {
 }
 .terminal {
   width: 86%;
-  /* border: 1px solid red; */
   margin: 80px auto;
-  /* height: 100vh; */
 }
 .terminal .terminals {
   display: flex;
@@ -282,11 +280,9 @@ nav .btns button {
 }
 
 .terminal .terminals .terminal-2 .terminal-2-2 {
-  /* position: relative; */
   position: absolute;
   width: 750px;
   height: 231px;
-  /* border: 1px solid blue; */
 }
 
 .terminal .terminals .terminal-2 .terminal-2-2-s {
@@ -308,7 +304,6 @@ nav .btns button {
   padding: 10px 0px 0px 30px;
 }
 .terminal .terminals .terminal-2 .terminal-2-2 img {
-  /* border: 1px solid blue; */
   margin-top: 25px;
   margin-left: 430px;
 }
@@ -321,8 +316,6 @@ nav .btns button {
   margin-top: 20px;
   width: 361px;
   height: 231px;
-  /* border: 1px solid blue; */
-  /* position: relative; */
 }
 .terminal .terminals .terminal-2 .terminal-2-3 img {
   position: absolute;
@@ -813,7 +806,7 @@ footer .salom img {
     display: flex;
     height: 100px;
     align-items: center;
-    margin: -60px auto 0px;
+    margin: -50px auto 0px;
     background: #fff;
     box-shadow: 0px 4px 8px rgba(68, 68, 68, 0.466);
     border-radius: 5px;
@@ -847,5 +840,35 @@ footer .salom img {
   .siles .siles-2 {
     width: 25%;
     height: 80px;
+  }
+  .terminal {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .terminal .terminals {
+    display: flex;
+    justify-content: space-between;
+  }
+  .terminal .terminals .terminal-1 {
+    width: 300px;
+    height: 480px;
+    position: relative;
+  }
+  .terminal .terminals .terminal-2 {
+    display: none;
+    width: 350px;
+    height: 480px;
+  }
+
+  .terminal .terminals .terminal-2 .terminal-2-2 {
+    position: absolute;
+    width: 350px;
+    height: 231px;
+  }
+  .terminal .terminals .terminal-2 .terminal-2-2-s {
+    margin: 0;
+    width: 350px;
+    height: 231px;
+    background: linear-gradient(#00000000, #000000b7);
   }
 }
