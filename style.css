@@ -789,12 +789,14 @@ footer .salom img {
   .heder-1 .text .ww {
     margin: 10px 0px 0px -5px;
     cursor: pointer;
+    display: none;
   }
   .heder-1 .girl {
-    width: 613px;
-    margin: 10px 0px 0px 0px;
+    width: 600px;
+    padding-top: 75px;
+    /* margin: 40px 0px 0px 0px; */
     height: 272px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
   }
   .heder-1 .girl img {
     width: 100%;
